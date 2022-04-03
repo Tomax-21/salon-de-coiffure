@@ -38,6 +38,10 @@ li a {
     transition: color 0.3s ease;
 }
 
+li a:hover {
+    color: orange;
+}
+
 .nav-contact{
     padding: 27px 100px 27px 27px;
 }
@@ -82,9 +86,10 @@ li a {
 }
 
 .content-about {
-    display: flex;
+   display: flex;
     flex-direction: row;
     justify-content: center;
+  /*  flex-wrap: wrap;*/
 
 }
 
@@ -92,7 +97,7 @@ li a {
     text-align: left;
     width: 50%;
     margin: 75px;
-    min-height: 600px;
+    min-height: 400px;
 }
 
 .text-about h4 {
@@ -196,4 +201,66 @@ li a {
 
 .name-testi {
     margin: 35px;
+    color: orange;
+}
+
+.contact {
+    min-height: 720px;
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+
+.title-contact {
+    padding-top: 50px;
+}
+
+.content-contact {
+    min-height: 400px;
+    background-color: white;
+    width: 550px;
+    height: 200px;
+    margin: 65px auto;
+    padding-top: 25px;
+    border-radius: 35px;
+}
+
+.input-contact {
+    border-radius: 5px;
+    height: 50px;
+    width: 450px;
+    margin: 25px;
+    padding-left: 10px;
+
+}
+
+.input-msg {
+    padding-top: 10px;
+}
+
+.btnContact {
+    border: none;
+    padding: 12px 25px;
+    border-radius: 35px;
+    background-color: orange;
+}
+
+.btnContact:hover {
+
+    background-color: rgb(255, 195, 82);
+}
+
+@media (max-width: 1480px) {
+    .content-about {
+        flex-wrap: wrap;
+    }
+
+    .text-about {
+        margin: 10px 45px;
+        width: 80%;
+    }
+
+    .img-about {
+        width: 80%;
+    }
 }
