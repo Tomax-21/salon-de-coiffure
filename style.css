@@ -49,7 +49,8 @@ nav ul li a {
 }
 
 a.active, a:hover {
-    background: antiquewhite;
+    background: #2c3e50;
+    color: antiquewhite;
     transition: .5s;
 }
 
@@ -351,6 +352,7 @@ li a:hover {
     border-radius: 5px;
     height: 50px;
     max-width: 450px;
+    width: 350px;
     margin: 25px;
     padding-left: 10px;
 
