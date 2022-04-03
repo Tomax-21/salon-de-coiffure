@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+
+    /*  permet de fixe la nav*/
+    position: fixed;
+    width: 100%;
+
+    font-size: 22px;
+
+    list-style-type: none;
+    margin-bottom: auto;
+   
+    background: none;
+    z-index: 1;
+    background-color: rgba(250 , 235, 215, 0.95);
+    box-shadow: 0px 0px 23px 3px rgba(0,0,0,0.38);
+
+
+}
+
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 27px 27px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-contact{
+    padding: 27px 100px 27px 27px;
+}
+
+.logo {
+    float: left;
+    padding: 27px 100px;
+    font-size: 22px;
+}
+
+.header {
+    text-align: center;
+    height: 768px;
+    line-height: 768px;
+    text-align: center;
+    background: linear-gradient(to right, rgba(55, 55, 55, 0.6), rgba(55, 55, 55, 0.6)), url("bg-principal-coiffure.jpg") ;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    color: white;
+   /* background-color: rgba(55, 55, 55, 0.6) ;*/
+    
+}
+
+.header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    
+    
+}
+
+
+.about {
+    background-color: antiquewhite;
+    min-height: 900px;
+    text-align: center;
+}
+
+.title-about {
+    padding: 50px 0 10px 0;
+}
+
+.content-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.text-about {
+    text-align: left;
+    width: 50%;
+    margin: 75px;
+    min-height: 600px;
+}
+
+.text-about h4 {
+    margin: 25px 0;
+    font-size: 30px;
+}
+
+.text-about p {
+    font-size: 20px;
+}
+
+.img-about {
+    width: 50%;
+    margin: 75px;
+    background-image: url("img-about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 620px;
+}
+
+
+.creation {
+    min-height: 900px;
+   /* max-width: 2500px;*/
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.title-creation {
+    padding: 0px 0 15px 0;
+}
+
+.content-creation {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.carte {
+    margin: 75px;
+    height: 200px;
+    width: 350px;
+    background-color: white;
+    border-radius: 35px;
+    /*box-shadow: 0px 0px 30px 3px rgba(255,255,255,0.7);*/
+}
+
+.carte img {
+    transform: translateY(-30px);
+   /* margin: px;*/
+    height: 150px;
+    box-shadow: 10px 7px 30px 11px rgba(0,0,0,0.25);
+}
+
+
+.testimonial {
+    min-height: 900px;
+    background-image: url("bg-testi.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+
+.title-testi {
+    padding: 70px 0 15px 0;
+}
+
+.full-box-testi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-testi {
+    height: 400px;
+    width: 350px;
+    margin: 55px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+.pdp-testi {
+    margin: 25px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.txt-testi {
+    margin: 10px 25px;
+}
+
+.name-testi {
+    margin: 35px;
+}
