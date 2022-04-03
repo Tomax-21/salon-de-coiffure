@@ -117,6 +117,15 @@ a.active, a:hover {
    
 }
 
+@media (max-width: 700px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 30px;
+
+    }
+
+}
+
 
 /*
 ul {
